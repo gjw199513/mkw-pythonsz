@@ -61,5 +61,5 @@ print(s.translate(str_trans))
 # u = 'èěéēàǎā'
 # print('è'.encode())
 # print(u)
-# newu = u.translate(dict.fromkeys([0xc3,0xa8]))
+# newu = dict.fromkeys([0xc3,0xa8])
 # print(newu)
